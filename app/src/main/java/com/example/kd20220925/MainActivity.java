@@ -15,11 +15,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void onBtnChangeTextClick(View v)
-    {
-        TextView tv = (TextView)findViewById(R.id.tv_main_label);
-        tv.setText("This is your Android");
-    }
 
     public void onBtnChangeTextColor(View v)
     {
