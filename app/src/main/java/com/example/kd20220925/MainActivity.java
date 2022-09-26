@@ -2,6 +2,7 @@ package com.example.kd20220925;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -17,6 +18,13 @@ public class MainActivity extends AppCompatActivity {
     public void onBtnChangeTextClick(View v)
     {
         TextView tv = (TextView)findViewById(R.id.tv_main_label);
-        tv.setText("Welcome to android");
+        tv.setText("This is your Android");
     }
+
+    public void onBtnChangeTextColor(View v)
+    {
+        TextView tv = (TextView) findViewById(R.id.tv_main_label);
+        tv.setTextColor(Color.parseColor("#00FFEF"));
+    }
+
 }
